@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+  integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="flex">
+      <img id="logo" src="images/logo.svg" alt="">
+      <ul class="flex">
+        <li><a class="navLink" href="#">Features</a></li>
+        <li><a class="navLink" href="#">Team</a></li>
+        <li><a class="navLink" href="#">Sign In</a></li>
+      </ul>
+    </nav>
+    <section id="headerContent" class="grid">
+    <div id="headerText" class="flex column">
+      <h2 class="bigHeading">All your files in one secure location, accessible anywhere.</h2>
+      <p class="text bold">Fylo stores your most important files in one secure location.
+      Access them wherever you need, share and collaborate with friends,
+      family, and co-workers.</p>
+      <form class="signUpform flex">
+<input type="email" name="email" id="headerMail"  placeholder="Enter your email">
+<button id="headerStarted">Get Started</button>
+      </form>
+    
+    </div>
+    <img src="images/illustration-1.svg" class="bigImg" alt="">
+    </section>
+    
+  </header>
+
+  
+  <section id="seperation"></section>
+  <main class="grid">
+    <section id="MainContent">
+      <h2 class="bigHeading">Stay productive, wherever you are</h2>
+      <p class="text light">Never let location be an issue when accessing your files. Fylo has you
+      covered for all of your file storage needs.</p>
+      <p class="text light">Securely share files and folders with friends, family and colleagues for
+      live collaboration. No email attachments required!</p>
+      
+        <a class="green flex"><p>See how Fylo works</p> <img src="images/icon-arrow.svg" id="arrow"alt=""></a>
+
+       <div id="testimonial">
+        <img src="images/icon-quotes.svg" alt="">
+        <p class="text small">Fylo has improved our team productivity by an order of magnitude. Since
+        making the switch our team has become a well-oiled collaboration machine.
+</p>
+<div id="kyle" class="flex">
+  <img src="images/avatar-testimonial.jpg" alt="">
+  <div id="kyleInfo" class="flex column">
+    <h4>Kyle Burton</h4>
+    <p class="text mini">Founder & CEO, Huddle</p>
+  </div>
+</div>
+       </div>
+    </section>
+    <img src="images/illustration-2.svg"  class="bigImg" alt="">
+  </main>
+
+  <section id="access" class="grid">
+    <div id="accessLeft">
+      <h2 class="midHeading">Get early access today</h2>
+      <p class="text light">It only takes a minute to sign up and our free starter tier is extremely generous.
+      If you have any questions, our support team would be happy to help you.</p>
+    </div>
+    <form action="" class="signUpForm">
+      <input type="email" name="email" id="" class="email" placeholder="email@example.com">
+      <button class="started">Get Started For Free</button>
+    </form>
+  </section>
+
+  
+<footer >
+  <img src="images/footerLogo.svg" alt="">
+<div id="footerContent" class="grid">
+  <section id="footerInfo">
+    
+    <div class="flex ">
+      <img  class="icon" src="images/icon-phone.svg" alt="">
+      <p class="text ">Phone: +1-543-123-4567</p>
+    </div>
+    <div class="flex">
+      <img class="icon" src="images/icon-email.svg" alt="">
+      <p class="text ">example@fylo.com</p>
+    </div>
+  </section>
+  <section id="linksLeft">
+    <a class="ftLink" href="#">About Us</a>
+    <a class="ftLink" href="#">Jobs</a>
+    <a class="ftLink" href="#">Press</a>
+    <a class="ftLink" href="#">Blog</a>
+  </section>
+  <section id="linksRight">
+    <a class="ftLink" href="#">Contact Us</a>
+    <a class="ftLink" href="#">Terms</a>
+    <a class="ftLink" href="#">Privacy</a>
+    
+  </section>
+  <section id="footerSocial" class="flex">
+<div class="iconHolder"><i class="fab fa-facebook"></i></div>
+<div class="iconHolder"><i class="fab fa-twitter"></i></div>
+<div class="iconHolder"><i class="fab fa-instagram"></i></div>
+  </section>
+  </div>
+</footer>
+  </body>
+</html>
